@@ -1,26 +1,40 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  } 
 
-.container{
-    display: flex;
-    
+
+  document.write{
+
+           font-size: medium;
+  }
+
+table{
+    border: 2px solid black;
 }
-
-.col{
-    margin: 2px;
-}
-
-.button{
-    width: 300px;
-    height: 200px;
-    background-color: red;
-    margin: 2px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
-
-.button span{
-    
-    font-size: 2em;
-    font-family: consolas;
+th, td{
+    text-align: left;
 }
